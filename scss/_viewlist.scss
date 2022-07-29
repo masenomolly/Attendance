@@ -1,0 +1,38 @@
+table{
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    margin: 2rem auto;
+ th{
+    padding: 1rem 1.5rem;
+    border-bottom: 2px solid lightgray;
+
+ 
+
+}
+
+td{
+    padding: 1rem 2rem;
+
+
+  .btn{
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 0.8rem .9rem;
+    background: hsl(318, 31%, 36%);
+    color: #FFC18E;
+}
+.update{
+  @extend .btn;
+  color: white;
+  background: lightgreen;
+}
+.delete{
+  @extend .btn;
+  color: white;
+  background: red;
+}
+}
+
+
+
+}
